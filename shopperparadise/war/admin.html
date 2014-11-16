@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopper's Paradise | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+<style>
+body {
+    background-image: url("back.jpg");
+    background-color: #cccccc;
+}
+
+</style>
+  </head>
+  <body >
+<img src="logo.jpg"  alt ="logo"   style="position:absolute; TOP:5px;LEFT:200px;width:800px;height:75px" >
+<br><br><br><br><br><hr>
+ <form action="promostorer">
+  <div class="row">
+				    <div class="large-4 medium-4 columns">
+				      <label>PROMOCODE</label>
+				      <input type="text" name="code" placeholder="promocode" />
+				    </div>
+				    <div class="large-4 medium-4 columns">
+			 	      <label>DISCOUNT</label>
+				      <input type="text" name="discount" placeholder="discount" />
+				    </div>
+				    
+				    
+				    <br>
+				    <input type="submit"  class= "small round button" value="Submit" >
+</div>
+</form>
+<h2>-----OR-----<h2>
+<form action="productstorer">
+<div class="row">
+				    <div class="large-4 medium-4 columns">
+				      <label>PRODUCT NAME</label>
+				      <input type="text" name="name" placeholder="name" />
+				    </div>
+				    <div class="large-4 medium-4 columns">
+			 	      <label>PRODUCT COST</label>
+				      <input type="text" name="cost" placeholder="cost" />
+				    </div>
+				     <div class="large-12 columns">
+				      <label>PRODUCT IMAGE URL</label>
+				      <input type="text" name="imgurl"  placeholder="image url" />
+				    </div>
+				    <br>
+				    
+				    <br>
+				    <input type="submit"  class= "small round button" value="Submit" >
+</div>
+</form>
+
+
+
+<script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+</body>
+</html>

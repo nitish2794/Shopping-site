@@ -1,0 +1,22 @@
+<table style="width:100%">
+<th><h3>Product Name</th>
+<th><h3>Image</th>
+<th><h3>Cost</th>
+  <tr>
+    <td>PEPSI</td>
+    <td><img src="pepsi.jpg" height=100 width=75 ></td> 
+    <td>Rs.50</td>
+<td><a href="#"  class= "small round button" >ADD to Cart</a>	
+  </tr>
+  <tr>
+    <td>MIRINDA</td>
+    <td><img src="mirinda.jpg" height=100 width=75></td> 
+    <td>Rs. 55</td>
+<td><a href="#"  class= "small round button" >ADD to Cart</a>
+  </tr>
+</table>
+
+
+
+
+<a href="#"  class= "small round button" data-reveal-id="myModal">Login</a>
